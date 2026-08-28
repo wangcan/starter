@@ -2,7 +2,7 @@ return {
   "elmcgill/springboot-nvim",
   dependencies = {
     "neovim/nvim-lspconfig",
-    #"mfussenegger/nvim-jdtls",
+    "mfussenegger/nvim-jdtls",
   },
   config = function()
     local springboot = require("springboot-nvim")
